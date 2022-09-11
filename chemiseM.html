@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pages des chemises</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="body-container">
+        <section class="section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="menu-icone">
+                        <div class="achat">
+                            <div class="button">
+                                <img class="btn btn-primary" src="/images/menu.png" alt="" onclick="toogleButton()">
+                            </div>
+                            <p><em>BenjAmosDavid.com</em></p>
+                        </div>
+                        <div class="achat">
+                            <form>
+                                <input type="text" placeholder="Recherch">
+                            </form>
+                            <p>Buy</p>
+                            <span><a href=""><img src="/images/cart.png" alt=""></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-container">
+            <div class="row">
+                <nav id="menu-collection">
+                    <ul>
+                        <li><a href="T-Shirt.html">Nos T-Shirts</a></li>
+                        <li><a href="chemiseM.html">Nos Chemises</a></li>
+                        <li><a href="MandC.html">Mandela court</a></li>
+                        <li><a href="MandL.html">Mandela long</a></li>
+                        <li><a href="Vestes.html">Nos Vestes</a></li>
+                        <li><a href="index.html">Accueil</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="section-container">
+            <div class="body-page">
+                <div class="container">
+                    <h2>collection nouveautés</h2>
+                    <div class="row">
+                        <div class="col-1-col">
+                            <img src="/images/chemise.Embale 2.jpg" alt="">
+                            <p>90 000 gnf</p>
+                        </div>
+                        <div class="col-1-col">
+                            <img src="/images/chemise.Embale 3.jpg" alt="">
+                            <p>90 000 gnf</p>
+                        </div>
+                        <div class="col-1-col">
+                            <img src="/images/chemise.Embale 4.jpg" alt="">
+                            <p>90 000 gnf</p>
+                        </div>
+                        <div class="col-1-col">
+                            <img src="/images/chemise.Embale 5.jpg" alt="">
+                            <p>90 000 gnf</p>
+                        </div>
+                        <div class="col-1-col">
+                            <img src="/images/chemise.Embale 6.jpg" alt="">
+                            <p>90 000 gnf</p>
+                        </div>
+                      
+                                               
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+        <!-- footer -->
+    
+        <div class="section-container">
+            <section class="footer">
+                <h3>benj amos David.com</h3>
+                <div class="foot-col-2">
+                    <p>Smart Market</p>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <h4>Tout droit reservé &copy; 2022 projet 01 du cours HTML&CSS</h4>
+            </section>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script>
+        var x = document.getElementById('menu-collection');
+
+        x.style.maxHeight = '0px';
+        x.style.padding = '0px';
+
+        function toogleButton() {
+            if (x.style.maxHeight == '0px') {
+                x.style.maxHeight = '150px';
+                x.style.padding = '20px';
+
+
+            } else {
+                x.style.maxHeight = '0px';
+                x.style.padding = '0px';
+            }
+        }
+    </script>
+</body>
+
+</html>
